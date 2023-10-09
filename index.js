@@ -48,7 +48,6 @@ app.get("/auth/login", (req, res) => {
 app.put("/userPermission", async (req, res) => {
 
   const { code } = req.body;
-  console.log("use permission")
   const { tokens } = await oauth2Client.getToken(code);
   oauth2Client.setCredentials(tokens);
   res.status(201).json({message:"user logged in successfully"})
@@ -57,7 +56,6 @@ app.put("/userPermission", async (req, res) => {
 app.get("/checkMailAndNotify", async (req, res) => {
 
   setInterval(async () => {
-    console.log("send mail")
     const gmail = google.gmail({ version: "v1", auth: oauth2Client });
 
     const searchKeys = await Keywords.find({ isChecked: true })
@@ -123,7 +121,6 @@ app.get("/checkMailAndNotify", async (req, res) => {
 
 
         if (msgTime >= strtTime && msgTime <= endTime) {
-          console.log("op")
           client.messages.create({
             from: "whatsapp:+14155238886",
             body: `Msg from ${from.value}`,
