@@ -7,6 +7,11 @@ by apps like linkedin, instagram, facebook, etc. Message from apps for there pro
 leads to a lot of notifications we receive on our phones and due to so much of notification sometimes we tend to miss some important emails which are from our work.
 
 Login page
+
+![alt text](https://github.com/VinitSingh13/notify-me-backend/blob/master/images/notify-login-page.png?raw=true)
+
+Home Page
+
 ![alt text](https://github.com/VinitSingh13/notify-me-backend/blob/master/images/notify-home-page.png?raw=true)
 
 How Notify-Me App Works ??
