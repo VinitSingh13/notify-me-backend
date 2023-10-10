@@ -6,6 +6,9 @@ very convinient, but there is an issue with this. The issue is gmail app sends n
 by apps like linkedin, instagram, facebook, etc. Message from apps for there promotions, like message sent from "make my trip" , that theres a discount on flights and so on. This 
 leads to a lot of notifications we receive on our phones and due to so much of notification sometimes we tend to miss some important emails which are from our work.
 
+Login page
+![alt text](https://github.com/VinitSingh13/notify-me-backend/blob/master/images/notify-home-page.png?raw=true)
+
 How Notify-Me App Works ??
 1. Login to app, set keywords or mail id of those people whose notification you want to get on your whatsapp
 2. Once you have selected the keywords, its done, and now if you receive a new mail and  any keyword or mail id matches, from your selected list, you will receive a message
